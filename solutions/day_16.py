@@ -1,4 +1,4 @@
-g = {x+y*1j: c for y, r in enumerate(open('../data/day_16.txt'))
+g = {x+y*1j: c for y, r in enumerate(open('data/day_16.txt'))
                for x, c in enumerate(r.strip())}
 
 def count(todo):
