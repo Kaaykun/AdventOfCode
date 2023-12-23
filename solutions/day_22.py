@@ -30,7 +30,7 @@ bricks = sorted([Brick(line) for line in lines], key=lambda b: b.z1)
 
 # Falling bricks
 for i, brick in enumerate(bricks):
-    floor = 1
+    floor = 0
     for other in bricks[:i]:
         if brick.overlaps(other):
             floor = max(floor, other.z2 + 1)
@@ -48,10 +48,7 @@ for i, brick in enumerate(bricks):
             other.supports.add(brick)
 
 ### PART 1 ###
-part1 = 0
-for brick in bricks:
-    if all(len(other.supported_by) > 1 for other in brick.supports):
-        part1 += 1
+part1 = sum(all(len(other.supported_by) > 1 for other in brick.supports) for brick in bricks)
 
 print(f'Part 1: {part1}')
 
