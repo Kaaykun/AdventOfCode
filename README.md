@@ -4,7 +4,7 @@ This repository contains my solutions for the Advent of Code challenges.
 
 ## Overview
 
-This repository houses my Python solutions to the Advent of Code challenges. Each day's challenge has its own notebook named `day_xx` where `xx` represents the day number. Inside the data directory, you'll find the provided puzzle input and additional resources.
+This repository houses my Python solutions to the Advent of Code challenges. Each day's challenge has its own folder named inside the respective year's collection named `day_xx` where `xx` represents the date. Each day contains a `.py` (solution code) and a `.txt` (puzzle input) file. When required, a second `.txt` can be found, which is a testing subset of the input given in the puzzle description on the AOC website.
 
 ## Disclaimer
 
@@ -14,7 +14,7 @@ Feel free to explore and use these solutions as a reference but keep in mind tha
 
 ## Advent of Code
 
-Advent of Code is an annual coding event with daily coding challenges. Visit the Advent of Code website to learn more and participate.
+Advent of Code is an annual coding event with daily coding challenges. Visit the Advent of Code website (https://adventofcode.com/) to learn more and participate.
 
 ## Author
 
