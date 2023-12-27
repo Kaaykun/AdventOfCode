@@ -1,6 +1,7 @@
-# Advent of Code Solutions
+## Advent of Code
 
-This repository contains my solutions for the Advent of Code challenges.
+Advent of Code is an annual coding event with daily coding challenges. Visit the Advent of Code website (https://adventofcode.com/) to learn more and participate.
+This repository contains my solutions for the event puzzles.
 
 ## Overview
 
@@ -12,9 +13,7 @@ These solutions are intended for personal reference and learning purposes. They 
 
 Feel free to explore and use these solutions as a reference but keep in mind that understanding and solving the challenges on your own is highly encouraged.
 
-## Advent of Code
 
-Advent of Code is an annual coding event with daily coding challenges. Visit the Advent of Code website (https://adventofcode.com/) to learn more and participate.
 
 ## Author
 
