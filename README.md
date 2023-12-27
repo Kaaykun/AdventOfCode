@@ -1,4 +1,4 @@
-## Advent of Code
+# Advent of Code
 
 Advent of Code is an annual coding event with daily coding challenges. Visit the Advent of Code website (https://adventofcode.com/) to learn more and participate.
 This repository contains my solutions for the event puzzles.
